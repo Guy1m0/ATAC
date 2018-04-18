@@ -4,9 +4,9 @@
 Use command "file hack" to figure out the target's file type, it is a elf file. 
 ## Step2
 Run this file with commands "chmod +x sudo" and â./sudo"
-##Step3
+## Step3
 Use disassembler to find more information.
-##Step4
+## Step4
 * After reading this code, we know that this code is used to check the content of a file whether equals to assigned words.
 * So, we need to find this file's name first and create this file, and then try to figure out target words, and write these words into this file.
 * The code below shows that file's name is "EthicalHacking". 
