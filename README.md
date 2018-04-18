@@ -5,7 +5,7 @@ The key is the file:
 * content: enterkey secretuseryoucannotgetthispassword11235813
 
 ## Step1
-Try to run this executible file
+Try to run this executible file ```challenge.exe```
 
 ## Step2
 Use disassembler to find more information about that. (Recommend: IDA pro with decompiler)
@@ -23,5 +23,5 @@ Use disassembler to find more information about that. (Recommend: IDA pro with d
 * According to the code below, Caesar cipher is used to protect the real words. For the first 10 characters, it turns c to a, d to b, etc. For the last 8 characters, they are base64 encoded. In terms of the rest letters, each letter should trace forward, which means a turns to be b, b turns to be c, etc. So the final word is "secretuseryoucannotgetthispassword11235813" * We need to write down this value in the file EthicalHacking.
 ![](http://ooj03jwxf.bkt.clouddn.com/psd.jpg)
 * Run this file again 
-```sudo.exe EthicalHacking```
+```challenge.exe EthicalHacking```
 And the picture shows that "secretuseryoucannotgetthispassword11235813" is the password we are looking for.
