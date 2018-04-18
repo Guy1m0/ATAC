@@ -3,6 +3,7 @@
 The key is the file:
 * filename: EthicalHacking
 * content: enterkey secretuseryoucannotgetthispassword11235813
+* flag{ZTE_Revenge}
 
 ## Step1
 Try to run this executible file 
