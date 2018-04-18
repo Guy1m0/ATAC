@@ -3,7 +3,7 @@
 ## Step1
 Use command "file hack" to figure out the target's file type, it is a elf file. 
 ## Step2
-Run this file with commands "chmod +x sudo" and â./sudo"
+Run this file with commands "chmod +x sudo" and ./sudo"
 
 ## Step3
 Use disassembler to find more information.
