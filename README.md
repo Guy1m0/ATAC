@@ -1,8 +1,8 @@
 # Writeup for Reverse Engineering Challenge
 
 The key is the file:
-filename: EthicalHacking
-content: enterkey secretuseryoucannotgetthispassword11235813
+* filename: EthicalHacking
+* content: enterkey secretuseryoucannotgetthispassword11235813
 
 ## Step1
 Try to run this executible file
